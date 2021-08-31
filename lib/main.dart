@@ -33,7 +33,23 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[],
+          children: <Widget>[
+            ApplePayButton(
+              paymentConfigurationAsset: 'applepay.json',
+              paymentItems: _paymentItems,
+              style: ApplePayButtonStyle.black,
+              type: ApplePayButtonType.buy,
+              width: 400,
+              height: 150,
+              margin: const EdgeInsets.only(top: 15.0),
+              onPaymentResult: (value) {
+                print(value);
+              },
+              loadingIndicator: const Center(
+                child: CircularProgressIndicator(),
+              ),
+            ),
+          ],
         ),
       ),
     );

@@ -29,7 +29,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   common_ui_toolkit: ^0.2.5
-  # pay: ^1.0.5
+  pay: ^1.0.5
 
 dev_dependencies:
   flutter_test:
@@ -51,8 +51,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  # assets:
-  #   - assets/
+  assets:
+    - assets/
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

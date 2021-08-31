@@ -1,4 +1,4 @@
-#  Pay Example
+# Apple Pay Example
 
 A new Flutter project.
 
