@@ -1,0 +1,21 @@
+{
+  "provider": "apple_pay",
+  "data": {
+    "merchantIdentifier": "merchant.com.yourMerchant",
+    "displayName": "Test Mercant",
+    "merchantCapabilities": [
+      "3DS",
+      "debit",
+      "credit"
+    ],
+    "supportedNetworks": [
+      "amex",
+      "visa",
+      "masterCard"
+    ],
+    "countryCode": "USD",
+    "currencyCode": "US",
+    "requiredBillingContactFields": null, 
+    "requiredShippingContactFields": null
+  }
+}
