@@ -39,11 +39,14 @@ class MyHomePage extends StatelessWidget {
               paymentItems: _paymentItems,
               style: ApplePayButtonStyle.black,
               type: ApplePayButtonType.buy,
-              width: 400,
-              height: 150,
+              width: 200,
+              height: 50,
               margin: const EdgeInsets.only(top: 15.0),
               onPaymentResult: (value) {
                 print(value);
+              },
+              onError: (error) {
+                print(error);
               },
               loadingIndicator: const Center(
                 child: CircularProgressIndicator(),
