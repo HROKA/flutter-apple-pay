@@ -1,16 +1,9 @@
 # Apple Pay Example
 
-A new Flutter project.
+### [artical link](https://hassanannajjar.medium.com/how-to-use-apple-pay-with-flutter-87b56e654313)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+![https://hassanannajjar.medium.com/how-to-use-apple-pay-with-flutter-87b56e654313](https://user-images.githubusercontent.com/49004640/133082067-2e06f2a3-d1f6-4660-8d60-5e31aa0f014d.png)
+)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
